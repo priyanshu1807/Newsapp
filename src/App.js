@@ -24,20 +24,20 @@ const App =()=> {
           <Navbar />
           <Routes>
 
-            <Route exact path="https://newsapp-rust.vercel.app/" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={5} countrt="in" category="general" />} />
-            <Route exact path="https://newsapp-rust.vercel.app/business" element={<News setProgress={setProgress} apikey={apikey} key="business" pageSize={5} countrt="in" category="business" />} />
+            <Route exact path="https://priyanshu1807.github.io/" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={5} countrt="in" category="general" />} />
+            <Route exact path="https://priyanshu1807.github.io/business" element={<News setProgress={setProgress} apikey={apikey} key="business" pageSize={5} countrt="in" category="business" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/entertainment" element={<News setProgress={setProgress} apikey={apikey} key="entertainment" pageSize={5} countrt="in" category="entertainment" />} />
+            <Route exact path="https://priyanshu1807.github.io/entertainment" element={<News setProgress={setProgress} apikey={apikey} key="entertainment" pageSize={5} countrt="in" category="entertainment" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/general" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={5} countrt="in" category="general" />} />
+            <Route exact path="https://priyanshu1807.github.io/general" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={5} countrt="in" category="general" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/health" element={<News setProgress={setProgress} apikey={apikey} key="health" pageSize={5} countrt="in" category="health" />} />
+            <Route exact path="https://priyanshu1807.github.io/health" element={<News setProgress={setProgress} apikey={apikey} key="health" pageSize={5} countrt="in" category="health" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/science" element={<News setProgress={setProgress} apikey={apikey} key="science" pageSize={5} countrt="in" category="science" />} />
+            <Route exact path="https://priyanshu1807.github.io/science" element={<News setProgress={setProgress} apikey={apikey} key="science" pageSize={5} countrt="in" category="science" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/sports" element={<News setProgress={setProgress} apikey={apikey} key="sports" pageSize={5} countrt="in" category="sports" />} />
+            <Route exact path="https://priyanshu1807.github.io/sports" element={<News setProgress={setProgress} apikey={apikey} key="sports" pageSize={5} countrt="in" category="sports" />} />
 
-            <Route exact path="https://newsapp-rust.vercel.app/technology" element={<News setProgress={setProgress} apikey={apikey} key="technology" pageSize={5} countrt="in" category="technology" />} />
+            <Route exact path="https://priyanshu1807.github.io/technology" element={<News setProgress={setProgress} apikey={apikey} key="technology" pageSize={5} countrt="in" category="technology" />} />
 
 
 
