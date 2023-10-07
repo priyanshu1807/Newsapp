@@ -22,6 +22,7 @@ const App = () => {
 
         />
         <Navbar />
+        <p>Something could go wrong... Don't accuse me !!!</p>
         <Routes>
 
           <Route exact path="/" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={5} countrt="in" category="general" />} />
